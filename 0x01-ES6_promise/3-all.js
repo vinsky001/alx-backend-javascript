@@ -7,7 +7,7 @@ export default function handleProfileSignup() {
 
   return uploadPhoto()
     .then((data) => {
-      // Store data by declaring a variable
+      // Store body in a variable
       body = data.body;
 
       // Return a new promise
