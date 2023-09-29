@@ -1,5 +1,5 @@
-export default function createIteratorObject (report) {
-  function*  iterateEmployees () {
+export default function createIteratorObject(report) {
+  function* iterateEmployees() {
     for (const department of Object.values(report)) {
       for (const employee of department.employees) {
         yield employee;
@@ -12,6 +12,6 @@ export default function createIteratorObject (report) {
 
   return {
     [Symbol.iterator]: () => iterator,
-    next: () => iterator.next()
+    next: () => iterator.next(),
   };
 }
