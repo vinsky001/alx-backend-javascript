@@ -12,4 +12,3 @@ export default function iterateThroughObject(reportWithIterator) {
   // Join the employee names with '|' separator and return as a string.
   return employeeNames.join('|');
 }
-
