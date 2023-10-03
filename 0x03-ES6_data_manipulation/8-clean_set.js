@@ -13,7 +13,6 @@ export default function cleanSet(set, startString) {
       }
     });
   }
-
   // Remove the trailing hyphen from the result and return the cleaned string
   return result.slice(0, -1);
 }
