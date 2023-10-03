@@ -1,5 +1,5 @@
 export default function cleanSet(set, startString) {
-    // intialize empty string to store cleaned values
+  // intialize empty string to store cleaned values
   let result = '';
 
   // Check if startString is a non-empty string and set is an instance of Set
